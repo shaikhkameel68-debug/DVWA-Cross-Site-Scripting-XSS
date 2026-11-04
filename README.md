@@ -45,7 +45,7 @@ kameel
 
 **Evidence – Reflected XSS page with normal input**
 
-![Reflected XSS normal input](Screenshots/02_XSS/01_Reflected_XSS_Normal_Input.png)
+![Reflected XSS normal input](Screenshots/01_Reflected_XSS_Normal_Input.png)
 
 ### Step 2 – Submit a harmless JavaScript test payload
 
@@ -67,11 +67,11 @@ kameel
 
 **Evidence – Payload submitted**
 
-![Reflected XSS payload submitted](Screenshots/02_XSS/02_Reflected_XSS_Payload_Submitted.png)
+![Reflected XSS payload submitted](Screenshots/02_Reflected_XSS_Payload_Submitted.png)
 
 **Evidence – JavaScript alert displayed**
 
-![Reflected XSS alert](Screenshots/02_XSS/03_Reflected_XSS_JavaScript_Alert.png)
+![Reflected XSS alert](Screenshots/03_Reflected_XSS_JavaScript_Alert.png)
 
 **Result:** The browser displayed the alert text `XSS Vulnerability`, demonstrating JavaScript execution in the reflected response.
 
@@ -85,7 +85,7 @@ Opened the **XSS (Stored)** module. The page provided a guestbook form with Name
 
 **Evidence – Stored XSS guestbook page**
 
-![Stored XSS guestbook page](Screenshots/02_XSS/04_Stored_XSS_Guestbook_Page.png)
+![Stored XSS guestbook page](Screenshots/04_Stored_XSS_Guestbook_Page.png)
 
 ### Step 2 – Submit a normal guestbook entry
 
@@ -103,7 +103,7 @@ This is my first XSS test
 
 **Evidence – Normal guestbook entry**
 
-![Stored XSS normal entry](Screenshots/02_XSS/05_Stored_XSS_Normal_Entry.png)
+![Stored XSS normal entry](Screenshots/05_Stored_XSS_Normal_Entry.png)
 
 ### Step 3 – Submit a harmless JavaScript test payload
 
@@ -130,11 +130,11 @@ Kameel
 
 **Evidence – Stored XSS payload entered**
 
-![Stored XSS payload entered](Screenshots/02_XSS/06_Stored_XSS_Payload_Entered.png)
+![Stored XSS payload entered](Screenshots/06_Stored_XSS_Payload_Entered.png)
 
 **Evidence – JavaScript alert displayed**
 
-![Stored XSS alert](Screenshots/02_XSS/07_Stored_XSS_JavaScript_Alert.png)
+![Stored XSS alert](Screenshots/07_Stored_XSS_JavaScript_Alert.png)
 
 **Result:** The browser displayed `Stored XSS`, demonstrating that the guestbook content was rendered as executable script rather than inert text.
 
